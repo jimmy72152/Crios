@@ -1,0 +1,35 @@
+.hero-image {
+  background-image: url("../../assets/images/landing-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 127rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.main-button {
+  box-shadow: 0 0 65px #dae4ef;
+  color: #43a9ff;
+  width: 18rem;
+  height: 4rem;
+  border-radius: 24px;
+  background-color: #fff;
+  border: none;
+  font-size: 11px;
+  position: absolute;
+  top: 8rem;
+  cursor: pointer;
+}
+.info h1 {
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3.2rem;
+}
+.info p {
+  text-align: center;
+  color: #e9ebec;
+  font-size: 1.4rem;
+}

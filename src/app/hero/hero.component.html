@@ -1,0 +1,11 @@
+<div class="hero">
+  <div class="info" (click)="openCard()">
+    <h1>Simple PSD template with cool stuff</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  </div>
+  <div class="hero-image">
+    <button class="main-button" (click)="openCard()">EXPLORE TEMPLATE</button>
+
+    <app-card *ngIf="showCard"></app-card>
+  </div>
+</div>

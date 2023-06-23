@@ -1,0 +1,28 @@
+.row {
+  background-color: #f7f8fb;
+  display: flex;
+  align-items: center;
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .info {
+    text-align: center;
+    width: 50%;
+    h3 {
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 3.2rem;
+    }
+    p {
+      color: #e9ebec;
+      font-size: 1.4rem;
+      width: 50%;
+      margin: auto;
+    }
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}

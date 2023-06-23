@@ -1,0 +1,42 @@
+.main-nav .circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  box-shadow: 0 0 6.5rem #dae4ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.circle img {
+  width: 30%;
+  height: auto;
+}
+.main-logo {
+  width: 30rem;
+  height: 30rem;
+  box-shadow: 0 0 6.5rem #dae4ef;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  top: -17rem;
+}
+.main-logo p {
+  margin-bottom: 5rem;
+  color: #e9ebec;
+}
+.main-logo h3 {
+  font-size: 2.8rem;
+  color: #43a9ff;
+  margin: 0;
+  font-weight: 400;
+}
+.main-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}

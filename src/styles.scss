@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 991px) {
+  .row {
+    display: block !important;
+    img {
+      width: 100% !important;
+    }
+    .info {
+      margin: auto !important;
+      padding-bottom: 5rem !important;
+      width: 100% !important;
+      p {
+        width: 80% !important;
+      }
+    }
+  }
+}
